@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-01T11:25:52 IST" name="Default suite" finished-at="2022-09-01T11:26:05 IST" duration-ms="12766">
+    <groups>
+    </groups>
+    <test started-at="2022-09-01T11:25:52 IST" name="Default test" finished-at="2022-09-01T11:26:05 IST" duration-ms="12766">
+      <class name="TestCases.login">
+        <test-method is-config="true" signature="BeforeTesting()[pri:0, instance:TestCases.login@67a20f67]" started-at="2022-09-01T11:25:52 IST" name="BeforeTesting" finished-at="2022-09-01T11:25:55 IST" duration-ms="3158" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTesting -->
+        <test-method signature="LoginUser()[pri:1, instance:TestCases.login@67a20f67]" started-at="2022-09-01T11:25:55 IST" name="LoginUser" finished-at="2022-09-01T11:25:57 IST" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method signature="TotalReadUnreadMessagesOfWeb()[pri:2, instance:TestCases.login@67a20f67]" started-at="2022-09-01T11:25:57 IST" name="TotalReadUnreadMessagesOfWeb" finished-at="2022-09-01T11:26:00 IST" duration-ms="2519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalReadUnreadMessagesOfWeb -->
+        <test-method signature="TotalReadUnreadMessagesOfWhatsapp()[pri:3, instance:TestCases.login@67a20f67]" started-at="2022-09-01T11:26:00 IST" name="TotalReadUnreadMessagesOfWhatsapp" finished-at="2022-09-01T11:26:02 IST" duration-ms="2356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalReadUnreadMessagesOfWhatsapp -->
+        <test-method signature="TotalReadUnreadMessageOfFacebook()[pri:4, instance:TestCases.login@67a20f67]" started-at="2022-09-01T11:26:02 IST" name="TotalReadUnreadMessageOfFacebook" finished-at="2022-09-01T11:26:05 IST" duration-ms="2276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalReadUnreadMessageOfFacebook -->
+      </class> <!-- TestCases.login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
