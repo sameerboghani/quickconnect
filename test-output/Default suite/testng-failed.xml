@@ -7,8 +7,7 @@
         <methods>
           <include name="AccessTheActiveSection"/>
           <include name="BeforeTesting"/>
-          <include name="AccessTheChatSection"/>
-          <include name="AccessTheUnreadSection"/>
+          <include name="AccessTheInbox"/>
           <include name="AccessTheArchiveSection"/>
         </methods>
       </class> <!-- TestCasse2.InboxSection -->

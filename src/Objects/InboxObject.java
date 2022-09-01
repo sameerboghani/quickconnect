@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 public class InboxObject {
 	WebDriver driver;
 	
-	By InboxSection = By.xpath("//span[contains(text(),'Inbox')]");
+	By InboxSection = By.xpath("(//span[@class=\"MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-yb0lig\"])[02]");
 	By ChatSection =By.xpath("(//button[@type=\"button\"])[01]");
 	By Unread = By.xpath("(//button[@type=\"button\"])[02]");
 	By Active =By.xpath("(//button[@type=\"button\"])[03]");

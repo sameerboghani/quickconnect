@@ -2,7 +2,8 @@ package TestCasse2;
 
 	import org.openqa.selenium.WebDriver;
 	import org.openqa.selenium.chrome.ChromeDriver;
-	import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeTest;
 	import org.testng.annotations.Test;
 
 	import Objects.InboxObject;
@@ -31,10 +32,10 @@ package TestCasse2;
 		}
 		
 		@Test(priority =2)
-		public void AccessTheInbox() throws InterruptedException {
+		public void AccessTheInbox(){
 			InboxObject io = new InboxObject(driver);
-			driver.get("https://dev.quick-connect.io/inbox");
-			Thread.sleep(3000);
+			new Actions(driver).moveToElement(io.Inbox()).click().perform();
+			
 		
 		}
 		@Test(priority =3)
